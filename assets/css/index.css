@@ -190,7 +190,7 @@ img.emoji-img {
 /* Base */
 
 body {
-  background: @background;
+  background:#252827;
   font-size: 16px;
 }
 
@@ -301,7 +301,7 @@ h1 {
     &:after {
       box-shadow: 0 0 0 @dotborder fade(@color-primary,100%);
       left: (@spacing + @line + (@dot * 0.35)) * -1;
-      background: lighten(@background,5%);
+      background: lighten(#252827,5%);
       border-radius: 50%;
       height: @dot;
       width: @dot;
